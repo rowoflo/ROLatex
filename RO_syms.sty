@@ -1,0 +1,35 @@
+% RO_syms.sty
+% My personal Latex commands.
+%
+% AUTHOR:
+%    Rowland O'Flaherty (rowlandoflaherty.com)
+%
+% VERSION: 
+%   Created 02-FEB-2014
+%-------------------------------------------------------------------------------
+
+\ProvidesPackage{RO_syms}
+
+\usepackage{color}
+
+\providecommand{\note}{\textcolor{red}} % Notes
+
+\providecommand{\T}[0]{\textsf{T}} % Transpose
+\providecommand{\abs}[1]{\lvert#1\rvert} % Absolute value
+\providecommand{\norm}[1]{\lVert#1\rVert} % Norm
+\renewcommand{\vector}[2]{[#1_1,\ldots,#1_{#2}]} % Vector
+\newcommand{\argmin}{\operatornamewithlimits{argmin}} % Minimum argument
+\newcommand{\argmax}{\operatornamewithlimits{argmax}} % Maximum argument
+\providecommand{\N}{\mathbb{N}} % Natural Numbers
+\providecommand{\Z}{\mathbb{Z}} % Integers Numbers
+\providecommand{\R}{\mathbb{R}} % Real Numbers
+\renewcommand{\Im}{\mathcal{R}} % Range Space
+\providecommand{\Ker}{\mathcal{N}} % Null Space
+\providecommand{\Tr}{\text{Tr}} % Trace
+\providecommand{\pd}[2]{\frac{\partial{#1}}{\partial{#2}}} % Partial derivative
+\providecommand{\E}[1]{\mathbf{E}\left[#1\right]} % Expectation
+\providecommand{\V}[1]{\mathbf{V}\left[#1\right]} % Variance
+
+\providecommand{\U}{\mathcal{U}}
+
+\providecommand{\half}{\frac{1}{2}} % 1/2
