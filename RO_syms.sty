@@ -8,10 +8,32 @@
 %   Created 02-FEB-2014
 %-------------------------------------------------------------------------------
 
-\ProvidesPackage{RO_syms}
+\ProvidesPackage{ROPackages/RO_syms}
 
+% *** TEXT PACKAGES ***
 \usepackage{color}
 
+% *** GRAPHICS RELATED PACKAGES ***
+\usepackage[dvips]{graphicx}
+
+% *** MATH PACKAGES ***
+\usepackage[cmex10]{amsmath}
+\usepackage{amssymb}
+
+% *** SPECIALIZED LIST PACKAGES ***
+\usepackage{enumerate}
+\usepackage{algorithm,algorithmic}
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+\usepackage{url}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+% *** CITATION PACKAGES ***
+\usepackage{cite}
+
+% *** MACROS ***
 \providecommand{\note}{\textcolor{red}} % Notes
 
 \providecommand{\T}[0]{\textsf{T}} % Transpose
