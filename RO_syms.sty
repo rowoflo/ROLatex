@@ -12,9 +12,12 @@
 
 % *** TEXT PACKAGES ***
 \usepackage{color}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{booktabs} % Required for the top and bottom rules in the table
 
 % *** GRAPHICS RELATED PACKAGES ***
-\usepackage[dvips]{graphicx}
+\usepackage[dvips]{graphicx} % Required for including images
+\usepackage{float} % Required for specifying the exact location of a figure or table
 
 % *** MATH PACKAGES ***
 \usepackage[cmex10]{amsmath}
@@ -26,6 +29,13 @@
 
 % *** PDF, URL AND HYPERLINK PACKAGES ***
 \usepackage{url}
+\usepackage[
+  backref=page,
+  pdfpagelabels=true,
+  plainpages=false,
+  colorlinks=true,
+  bookmarks=true,
+  pdfview=FitB]{hyperref} % Required for the hyperlinks within the PDF
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
