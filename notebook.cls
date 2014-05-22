@@ -16,7 +16,7 @@
 \DeclareOption{hyperref}{\we@use@hyperreftrue}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{scrbook}}
 \ProcessOptions\relax
-\LoadClass[idxtotoc,oneside,oneside]{scrbook} % 'openany' here removes the gap page between days, erase it to restore this gap; 'oneside' can also be added to remove the shift that odd pages have to the right for easier reading
+\LoadClass[oneside,oneside]{scrbook} % 'openany' here removes the gap page between days, erase it to restore this gap; 'oneside' can also be added to remove the shift that odd pages have to the right for easier reading
 \RequirePackage{makeidx} \makeindex
 \RequirePackage{titlesec}
 
