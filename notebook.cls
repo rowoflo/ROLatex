@@ -24,6 +24,10 @@
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 \setlength{\parskip}{10pt plus 1pt minus 1pt} % Set space between paragraphs
 
+\addtolength{\oddsidemargin}{-.4in}
+\addtolength{\evensidemargin}{-.4in}
+\addtolength{\textwidth}{0.8in}
+
 \addtolength{\topmargin}{-0.25in}
 \addtolength{\textheight}{1.25in}
 
