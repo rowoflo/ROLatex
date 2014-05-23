@@ -9,7 +9,7 @@
 %
 % The MIT License (MIT)
 % Copyright (c) [2014] [Rowland O'Flaherty]
-%-------------------------------------------------------------------------------
+%----------------------------------------------------------------
 
 \ProvidesClass{notebook}[2014/03/30 1.0 Custom notebook class.]
 \newif\ifwe@use@hyperref\we@use@hyperreffalse
@@ -599,9 +599,7 @@
     \renewcommand*\theHfigure{%
       \theHtopic.\arabic{figure}}%
     \renewcommand*\theHtable{%
-      \theHtopic.\arabic{table}}%
-    \newcommand*\theHsubfigure{%
-      \theHfigure.\arabic{subfigure}}
+      \theHtopic.\arabic{table}}
   }%
   \AtBeginDocument{%
     \@ifpackageloaded{hyperref}{}{%
