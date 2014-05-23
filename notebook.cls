@@ -24,6 +24,9 @@
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 \setlength{\parskip}{10pt plus 1pt minus 1pt} % Set space between paragraphs
 
+\addtolength{\topmargin}{-0.25in}
+\addtolength{\textheight}{1.25in}
+
 \newcommand{\notebooktitle}[2]{
 \title{
 \begin{center}
